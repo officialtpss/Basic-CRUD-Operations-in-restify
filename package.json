@@ -1,0 +1,27 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "basi crud opertions in restify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint 'src/**/*.js' --fix",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "officialtpss@gmail.com"
+  },
+  "author": "officialtpss@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "joi": "^14.3.1",
+    "mongoose": "^5.5.3",
+    "restify": "^8.3.0",
+    "restify-errors": "^7.0.0",
+    "restify-plugins": "^1.6.0",
+    "restify-router": "^0.5.1"
+  }
+}
