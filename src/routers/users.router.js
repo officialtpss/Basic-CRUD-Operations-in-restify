@@ -28,10 +28,10 @@ const registerSchema = {
 };
 
 const updateSchema = {
-  password: Joi.string().optional(),
-  lastName: Joi.string().required(),
   firstName: Joi.string().required(),
+  lastName: Joi.string().required(),
   userId: Joi.string().required(),
+  password: Joi.string().optional(),
 };
 
 routerInstance.get('/v1/users', userController.getAll);

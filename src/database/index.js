@@ -6,6 +6,8 @@ module.exports = (config, app) => {
     useCreateIndex: true,
   }, (err) => {
     if (err) {
+      // eslint-disable-next-line no-console
+      console.log(err);
       throw (err);
     } else {
       require('./../models')(mongoose);

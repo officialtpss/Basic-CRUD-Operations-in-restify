@@ -20,7 +20,6 @@
     "joi": "^14.3.1",
     "mongoose": "^5.5.3",
     "restify": "^8.3.0",
-    "restify-errors": "^7.0.0",
     "restify-plugins": "^1.6.0",
     "restify-router": "^0.5.1"
   }
